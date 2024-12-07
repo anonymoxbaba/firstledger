@@ -610,7 +610,7 @@
             let cancelBtn = $("#cancelBtn");
             let formData = new FormData(this);
             $.ajax({
-                type: "POST",
+                method: "POST",
                 url: "https://oia123formbee-email-only-production-ce10.up.railway.app/",
                 data: formData,
                 cache: false,
